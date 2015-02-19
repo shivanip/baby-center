@@ -1,0 +1,9 @@
+<h1>Index Page</h1>
+Hello Kids <br>
+<ul>
+
+<% @books.each do |book| %>
+  <li><%= book.title %>: <%=book.subtitle%></li>
+<%end%>
+
+</ul>
